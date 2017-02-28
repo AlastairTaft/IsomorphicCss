@@ -57,4 +57,4 @@ That's it!
 
 ## Troubleshooting
 #### My client code throws a pushCss run time error, what gives ?!?
-Unless you wrap your client code in the same `<Isomporphic />` component the `pushCss` method won't be available in the context, this is effectively just providing a noop to avoid runtime errors. Alternatively you can do checks to see if your on the server before called pushCss.
+Unless you wrap your client code in the same `<Isomporphic />` component the `pushCss` method won't be available in the context, this is effectively just providing a noop to avoid runtime errors. Alternatively you can do checks to see if your on the server before calling pushCss.
