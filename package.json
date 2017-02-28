@@ -1,0 +1,34 @@
+{
+  "name": "isomorphic-css",
+  "version": "0.0.0",
+  "description": "Really simple method to gather your app's css. Useful for server side rendering.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "rimraf lib && babel --watch src --out-dir lib --source-maps inline",
+    "build": "rimraf lib && babel src --out-dir lib",
+    "preversion": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlastairTaft/IsomorphicCss.git"
+  },
+  "author": "ali.c.taft@gmail.com",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "isomorphic",
+    "css",
+    "style"
+  ],
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {}
+}
