@@ -1,3 +1,6 @@
+# ⚠️ Archived
+This repo is not maintained. Most build tools do this automatically for you these days.
+
 # Isomorphic CSS
 
 This is a styling framework agnostic way of gathering up all the css you use in your app. Useful if you're building static versions of your sites.
